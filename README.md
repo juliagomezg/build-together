@@ -2,6 +2,10 @@
 
 BuildTogether helps community organizers plan welcoming, hands-on sessions where beginners can explore AI by making something useful. It turns a few event details into a timed workshop outline with practical activities and tangible outcomes.
 
+## Project status
+
+The MVP is implemented and the production build has been validated with `npm run build`. There is no public live demo yet.
+
 ## The problem
 
 Organizers often have a community need and a group of curious people, but may not know how to turn that into an accessible, practical AI-building event. BuildTogether provides a simple starting agenda that moves participants from identifying a real-world problem to sketching, building, testing, and sharing a small prototype.
@@ -13,7 +17,7 @@ BuildTogether is for community organizers, facilitators, educators, and voluntee
 ## Features
 
 - Set an event name, session length (one to six hours), group size (four to forty people), experience level, and a proposed challenge.
-- Generate a deterministic, four-part agenda: identify a real-life problem, sketch a solution, build and test a small AI helper, and present the result.
+- Generate a deterministic, four-part agenda: identify a real-life problem, sketch a solution, prototype and test an AI-powered solution, and present the result.
 - See timed activity descriptions and an intended outcome for each activity.
 - View suggested materials and a summary of the session length and participant count.
 - Switch the interface and generated agenda between English and Spanish.
@@ -45,7 +49,7 @@ The agenda generation is local, deterministic application code. The app has no b
 ### Install and run locally
 
 ```sh
-git clone <repository-url>
+git clone https://github.com/juliagomezg/build-together
 cd build-together
 npm install
 npm run dev
